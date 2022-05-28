@@ -1,0 +1,36 @@
+.flex_container{
+    display: flex;
+    height: 200px;
+    justify-items: center;
+    flex-direction: column;
+    background-color:antiquewhite;
+}
+
+.flex_boxF{
+  align-items: center;
+    justify-items: center;
+    width: 100px;
+    height: 100px;
+   background-color:red;
+}
+.flex_boxL{
+ align-items: center;
+    justify-items: center;
+    width: 100px;
+    height: 100px;
+   background-color:aquamarine;
+}
+.flex_boxE{
+align-items: center;
+    justify-items: center;
+    width: 100px;
+    height: 100px;
+    background-color:green;
+}
+.flex_boxG{
+align-items: center;
+    justify-items: center;
+    width: 100px;
+    height: 100px;
+    background-color:greenyellow;
+    }

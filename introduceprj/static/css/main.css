@@ -1,0 +1,95 @@
+
+body{
+    background-color: dimgray;
+    padding: 0;
+    margin: 0;
+    font-family: 'BMJUA';
+}
+@font-face {
+    font-family: 'BMJUA';
+    src: url('BMJUA_ttf.ttf');
+}
+main{ /*main컨테이너*/
+    width: 1500px;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main_item{
+    width: 100px;
+    height: 100px;
+}
+.nav_{
+    line-height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #282828;
+}
+a{
+    font-weight: bold;
+    padding: 3px;
+    font-size: 24px;
+    color:#fff;
+    text-decoration: none;
+}
+.Head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#wrap{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+footer{
+    background-color: gainsboro;
+    width:100%;
+    height: 100px;
+    bottom:0px;
+    position: absolute;
+    display: flex;
+    align-items:center;
+    justify-items: center;
+}
+button{
+    background-color:rgba(255,255,255,1);
+    border-radius: 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border:rgba(0,0,0,0.5);
+}
+button:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.HEADIMG{
+    width=5px;
+    height=5px;
+    margin-left: 5px;}
+
+span{
+margin-left: 10px; margin-right: 10px;}
+
+.toblack{
+color:black;
+}
+
+.toblackand20px{
+font-size:20px;color:black;
+}
+.center{
+text-align:center;
+
+}

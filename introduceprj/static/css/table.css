@@ -1,0 +1,56 @@
+body{
+    font-family: 'BMJUA';
+   
+   
+}
+@font-face {
+	font-family: 'BMJUA';
+	src: url('BMJUA_ttf.ttf');
+}
+table{
+
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+   table-layout: fixed;
+    border:1px solid black;
+   margin: 0px auto;
+  
+}
+tr,td{
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    font-family: 'BMJUA';
+}
+.container{
+    flex-direction: row; /*가로 */
+    flex-direction: column; /*세로 */
+}
+
+.first{
+border:1px solid black;
+margin-top: 20px;
+border-radius: 10px;
+ font-family: 'BMJUA';
+}
+.tr1{
+background-color: oldlace;
+}
+.tr2{
+style=background-color: antiquewhite;
+}
+
+.tr3{
+background-color: goldenrod;}
+
+.tr4{
+background-color: burlywood;}
+.tr5{
+background-color: darkseagreen;}
+
+.tr6{
+background-color: peru;}
